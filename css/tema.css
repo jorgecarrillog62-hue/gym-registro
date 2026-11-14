@@ -1,0 +1,56 @@
+/* Tokens de diseño: cambia aquí colores, letras y espacios sin tocar la lógica. */
+:root {
+  /* Identidad: azul base, verde para acciones y estados positivos, ámbar para alertas */
+  --azul: #3b82f6;
+  --azul-fuerte: #2563eb;
+  --azul-barra: #1d4ed8;
+  --verde: #22c55e;
+  --verde-fuerte: #16a34a;
+  --tinta-verde: #052e16;
+  --ambar: #f59e0b;
+
+  /* Modo oscuro (por defecto) */
+  --fondo: #0b1220;
+  --superficie: #131c2e;
+  --superficie-2: #1b2740;
+  --borde: #2a3956;
+  --texto: #e8eef8;
+  --texto-tenue: #9aa8bf;
+  --texto-barra: #ffffff;
+  --verde-suave: rgba(34, 197, 94, 0.14);
+  --azul-suave: rgba(59, 130, 246, 0.16);
+
+  /* Tipografía */
+  --fuente: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --t-chica: 0.8rem;
+  --t-normal: 1rem;
+  --t-media: 1.1rem;
+  --t-grande: 1.35rem;
+
+  /* Espacios y forma */
+  --e1: 4px;
+  --e2: 8px;
+  --e3: 12px;
+  --e4: 16px;
+  --e5: 24px;
+  --radio: 14px;
+  --radio-chico: 10px;
+  --toque: 48px; /* tamaño mínimo de botón para usar con el pulgar */
+}
+
+:root[data-theme='light'] {
+  --azul: #1d4ed8;
+  --azul-fuerte: #1e40af;
+  --verde: #15803d;
+  --verde-fuerte: #166534;
+  --tinta-verde: #ffffff;
+  --ambar: #b45309;
+  --fondo: #f1f5fb;
+  --superficie: #ffffff;
+  --superficie-2: #e8eef8;
+  --borde: #cbd5e1;
+  --texto: #0f172a;
+  --texto-tenue: #52627a;
+  --verde-suave: rgba(21, 128, 61, 0.12);
+  --azul-suave: rgba(29, 78, 216, 0.1);
+}

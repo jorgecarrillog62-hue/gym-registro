@@ -1,0 +1,28 @@
+{
+  "umbralRIR": { "compuesto": 3, "aislamiento": 2 },
+  "subirDobleSiFacil": true,
+  "rirAlto": { "desde": 4, "sumaReps": 2 },
+  "incrementos": {
+    "barra": 2.5,
+    "mancuerna": { "hasta": 10, "pasoChico": 1, "pasoGrande": 2 },
+    "maquina": { "kg": 2.5, "lb": 5 },
+    "polea": { "kg": 2.5, "lb": 5 },
+    "corporal": 2.5
+  },
+  "bajar": { "porcentaje": 5, "sesionesSeguidasBajoMinimo": 2, "repsSobreMinimo": 2 },
+  "pausas": [
+    { "desdeDias": 15, "porcentaje": 90 },
+    { "desdeDias": 22, "porcentaje": 85 },
+    { "desdeDias": 29, "porcentaje": 80 }
+  ],
+  "e1rm": { "maxRepsMasRIR": 12, "rirMaxSerieValida": 3 },
+  "etapa4": {
+    "escenario": "intermedio",
+    "banda": { "4": [-2, 3], "8": [-2, 5], "12": [-3, 6] },
+    "bandaExtraAislamiento": 2,
+    "margenDeficit": 5,
+    "sesionesEstancamiento": 3,
+    "descargaPorcentajeSeries": 50,
+    "seriesSemanaReferencia": [10, 16]
+  }
+}
